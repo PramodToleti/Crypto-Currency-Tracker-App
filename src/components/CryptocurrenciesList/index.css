@@ -1,0 +1,126 @@
+.crypto-currency-list-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 767px) {
+  .crypto-currency-list-container {
+    width: 70%;
+  }
+}
+
+.tracker-heading {
+  color: #00e7ff;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  width: 250px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 576px) {
+  .tracker-heading {
+    width: 500px;
+    font-size: 40px;
+  }
+}
+
+.crypto-image {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  .crypto-image {
+    width: 80%;
+  }
+}
+
+.crypto-tracker-item-container {
+  border: 5px solid #00e7ff;
+  border-radius: 8px;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+  min-height: 200px;
+}
+
+.item-container-header {
+  background-color: #092e33;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media screen and (min-width: 767px) {
+  .item-container-header {
+    padding-left: 45px;
+    padding-right: 45px;
+    height: 60px;
+  }
+}
+
+.coin-type-heading {
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  width: 150px;
+}
+
+@media screen and (min-width: 767px) {
+  .coin-type-heading {
+    font-size: 22px;
+  }
+}
+
+.currency-container {
+  display: flex;
+  width: 128px;
+  justify-content: space-between;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 767px) {
+  .currency-container {
+    width: 155px;
+  }
+}
+
+.currency-type {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 767px) {
+  .currency-type {
+    font-size: 22px;
+  }
+}
+
+.crypto-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 330px;
+  padding: 0;
+  margin: 0;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
